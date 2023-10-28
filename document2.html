@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <div id=div style="height:100px;width:100px;padding:20px;color:white;"
+        onmouseover="changecolor()"
+        onmouseleave="removecolor()">
+        welcome pavi
+       </div>
+       <script>
+           function changecolor()
+           {
+               let col=document.getElementById("div");
+               col.style.backgroundColor='black'
+           }
+           function removecolor()
+           {
+               let col=document.getElementById("div");
+               col.style.backgroundColor='white'
+           }
+           </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="head" style="height:100px;width:100px;padding:20px;color:white;"
+        welcome pavi>
+    </div>
+       <form>
+        <label for="name">name</label>
+        <input type="color" id="input">
+       </form>
+       <button onclick="update()">click</button>
+       <script>
+           function update()
+           {
+            let input=document.getElementById("input");
+            let output=input.value;
+
+            let head=document.getElementById("head");
+            head.style.backgroundColor=output;
+           }
+          
+           </script>
+</body>
+</html>
